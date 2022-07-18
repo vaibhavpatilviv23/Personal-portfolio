@@ -27,7 +27,7 @@ body {
 @media (min-width: 600px) and (max-width: 1199px) {
     header {
         position:relative;
-        background-color: darkslategrey;
+        background-color: rgb(67, 75, 70);
         width: auto;
         font-size: 40px;
         padding: 20px;
@@ -57,7 +57,7 @@ body {
     section {
         margin-top: 80px;
         height: auto;
-        background-color: rgb(15, 82, 83);
+        background-color: rgb(38, 52, 108);
         padding: 35px;
     }
 
@@ -68,10 +68,9 @@ body {
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
 
-    #projectss {
-        
+    .projectss {
         height: auto;
-        width: 600px;
+        width: 400px;
     }
 
     h2 {
@@ -134,7 +133,7 @@ body {
 @media only screen and (max-height: 575.98px) and (orientation: landscape) {
     header {
         position: relative;
-        background-color: darkslategray;
+        background-color: rgb(67, 75, 70);
         width: auto;
         height: auto;
         padding: 10px;
@@ -162,7 +161,7 @@ body {
     section {
         margin-top: 30px;
         height: auto;
-        background-color: darkslategray;
+        background-color: rgb(38, 52, 108);
         padding: 35px;
     }
 
@@ -172,7 +171,7 @@ body {
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
 
-    #projectss {
+    .projectss {
         
         height: auto;
         width: 300px;
@@ -233,7 +232,7 @@ body {
 @media (min-width: 1200px) {
     header {
         color: red;
-        background-color: darkslategrey;
+        background-color: rgb(67, 75, 70);
         height: auto;
         width: auto;
         font-size: 18px;
@@ -258,7 +257,7 @@ body {
     section {
         margin-top: 60px;
         height: auto;
-        background-color: rgb(15, 82, 83);
+        background-color: rgb(38, 52, 108);
         padding: 20px;
     }
 
@@ -266,7 +265,7 @@ body {
         font-size: 25px;
     }
 
-    #projectss {
+    .projectss {
         height: 200px;
         width: 200px;
         border: 8px solid black;
