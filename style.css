@@ -24,7 +24,7 @@ body {
 }
 
 /*only for smartphones in portrait mode */
-@media (min-width: 600px) and (max-width: 1199px) {
+@media (min-width: 600px) and (max-width: 1180px) {
     header {
         position:relative;
         background-color: rgb(67, 75, 70);
@@ -116,17 +116,18 @@ body {
         font-size: 30px;
     }
 
-    /**
+    
     footer {
-        margin-top: 50px;
-        background-color: lightgray;
+        margin-top: 20px;
+        background-color: rgb(67, 75, 70);
         width: auto;
         font-size:23px;
         padding: 25px;
         line-height: 80px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: white;
     }
-    **/
+    
 }
 
 /* only for smartphones in landscape mode*/
@@ -212,24 +213,126 @@ body {
         font-size: 24px;
     }
 
-    /**
+    
     footer {
         margin-top: 50px;
-        background-color: lightgray;
+        background-color: rgb(67, 75, 70);
         width: auto;
         font-size:23px;
         padding: 25px;
         line-height: 80px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: white;
     }
-    **/
+    
 }
 
 /* iPad in portrait and landscape mode */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1180px) {}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1180px) {
+    header {
+        color: red;
+        background-color: rgb(67, 75, 70);
+        height: auto;
+        width: auto;
+        font-size: 18px;
+        padding: 20px;
+        text-align: left;
+    }
+
+    h1 {
+        color: white;
+        font-weight: lighter;
+        font-family: sans-serif;
+    }
+
+    #profileimg {
+        height: 200px;
+        width:auto;
+        border: 4px black solid;
+        border-radius: 7%;
+    }
+
+    section {
+        margin-top: 60px;
+        height: auto;
+        background-color: rgb(38, 52, 108);
+        padding: 20px;
+    }
+
+    #aboutme {
+        font-size: 25px;
+    }
+
+    .projectss {
+        height: 200px;
+        width: 200px;
+        border: 8px solid black;
+        border-radius: 12px;
+    }
+
+    li {
+        color: white;
+    }
+
+   img {
+        height: 100px;
+        margin: 5px 0px 5px 0px;
+        width: 100px;
+        height: 100px;
+        border: 4px solid black;
+        border-radius: 12px;
+    }
+
+
+    h2 {
+        font-size: 25px;
+        color: white;
+        font-weight: lighter;
+    }
+
+    button {
+        color: white;
+        height: auto;
+        width: auto;
+        font-size: 20px;
+        padding: 10px;
+        background-color: rgb(62, 43, 202);
+        border: 4px black solid;
+        border-radius: 8px;
+    }
+
+    p {
+        color: white;
+        font-size: 21px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    #emaillogo {
+        border: none;
+    }
+
+    #lastitm {
+        margin-bottom: 50px;
+    }
+
+    li {
+        font-size: 24px;
+    }
+
+    footer {
+        margin-top: 10px;
+        background-color: rgb(67, 75, 70);
+        width: auto;
+        font-size:18px;
+        padding: 8px;
+        line-height: 37.5px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: white;
+    }
+}
 
 /*Large devices only (laptops and deskops) */
-@media (min-width: 1200px) {
+@media (min-width: 1181px) {
     header {
         color: red;
         background-color: rgb(67, 75, 70);
@@ -319,5 +422,16 @@ body {
 
     li {
         font-size: 24px;
+    }
+
+    footer {
+        margin-top: 10px;
+        background-color: rgb(67, 75, 70);
+        width: auto;
+        font-size:18px;
+        padding: 8px;
+        line-height: 37.5px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: white;
     }
 }
