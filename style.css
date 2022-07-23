@@ -293,6 +293,13 @@ body {
     h2 {
         font-size: 25px;
         color: white;
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    
+    h3 {
+        font-size: 20px;
         font-weight: lighter;
     }
 
@@ -401,7 +408,8 @@ body {
     h2 {
         font-size: 20px;
         color: white;
-        font-weight: lighter;
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
     button {
@@ -413,6 +421,11 @@ body {
         background-color: rgb(62, 43, 202);
         border: 4px black solid;
         border-radius: 8px;
+    }
+
+    h3 {
+        font-size: 20px;
+        font-weight: lighter;
     }
 
     p {
